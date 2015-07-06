@@ -4,7 +4,7 @@
 
 pkgname=mutt-patched
 pkgver=1.5.23
-pkgrel=5
+pkgrel=6
 pkgdesc='Small but very powerful text-based mail client (plus a huge pile of patches mostly from debian)'
 url='http://www.mutt.org/'
 license=('GPL')
