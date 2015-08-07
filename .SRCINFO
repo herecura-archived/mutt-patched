@@ -1,7 +1,7 @@
 pkgbase = mutt-patched
 	pkgdesc = Small but very powerful text-based mail client (plus a huge pile of patches mostly from debian)
 	pkgver = 1.5.23
-	pkgrel = 6
+	pkgrel = 7
 	url = http://www.mutt.org/
 	install = install
 	arch = i686
