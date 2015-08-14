@@ -1,7 +1,7 @@
 pkgbase = mutt-patched
 	pkgdesc = Small but very powerful text-based mail client (plus a huge pile of patches mostly from debian)
 	pkgver = 1.5.23
-	pkgrel = 7
+	pkgrel = 8
 	url = http://www.mutt.org/
 	install = install
 	arch = i686
@@ -68,6 +68,7 @@ pkgbase = mutt-patched
 	source = sidebar-compose.patch
 	source = sidebar-new.patch
 	source = nntp.patch
+	source = gnupg-2.1.patch
 	sha1sums = 8ac821d8b1e25504a31bf5fda9c08d93a4acc862
 	sha1sums = 018575fea153952423d4d512ca2fdfc2e49d669f
 	sha1sums = 1ad77bdf742ff584b5695f1908dde83044195c0e
@@ -115,6 +116,7 @@ pkgbase = mutt-patched
 	sha1sums = b648cb9ab1a0b447417647a82856af01a9a418e5
 	sha1sums = 230973eb243265ee75bd098f0f8286690bed2d08
 	sha1sums = 8d7d858e47bbb2c736c9d09de843d3892888e9c5
+	sha1sums = 5602c221ed1830b010a4cfc9a71081a1ef5fcc4a
 
 pkgname = mutt-patched
 
