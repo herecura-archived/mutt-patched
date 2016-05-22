@@ -4,7 +4,7 @@
 
 pkgname=mutt-patched
 pkgver=1.6.1
-pkgrel=1
+pkgrel=2
 pkgdesc='Small but very powerful text-based mail client (using -patched from debian)'
 url='http://www.mutt.org/'
 license=('GPL')
@@ -61,7 +61,9 @@ build() {
     --without-qdbm \
     --with-regex \
     --with-sasl \
-    --with-gnutls
+    --with-gnutls \
+    --enable-sidebar \
+    --enable-nntp
 
   make
 }
